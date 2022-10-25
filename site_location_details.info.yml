@@ -2,6 +2,7 @@ name: Site Location Details
 type: module
 description: 'To see the Site location and the current time for the location.'
 core_version_requirement: ^8.8 || ^9
+configure: site_location_details.admin_settings_form
 dependencies:
   - drupal:block
 package: Custom
