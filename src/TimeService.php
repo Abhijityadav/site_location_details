@@ -18,7 +18,7 @@ class TimeService {
    */
   public function  get_current_time_for_location($zone = '') {
     $date = new \DateTime("now", new \DateTimeZone($zone));
-    $date_output = $date->format('dS M Y h:i A');
+    $date_output = $date->format('dS M Y - h:i A');
     return $date_output;
   }
 
